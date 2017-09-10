@@ -1,5 +1,7 @@
-title:            Blog Title
-description:      Describe your website here.
+title:  Correctional Redemption
+description: >
+  Hints, tips, code samples, observations, and loosely related tidbits from a
+  devoted student of criminology, corrections, and crime analysis.
 
 # put your disqus here
 disqus_shortname:
@@ -10,7 +12,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: https://blueogive.github.io/
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -20,15 +22,8 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
+  - title: 'About'
+    url: '/about'
   - title: 'Favorites'
     url: '#'
     submenu:
@@ -36,18 +31,25 @@ menu:
         url: '/intro/code-highlighting-post/'
       - title: 'Sample Post'
         url: '/intro/sample-post/'
+  - title: 'Tags'
+    url: '/tags'
+  - title: 'Categories'
+    url: '/categories'
+    type: 'categories'
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Mark Coggeshall
+  site:           https://blueogive.github.io
+  avatar:         images/coggeshallm_formal_small.png
+  bio: >
+    "Criminologist, student of the correctional process, and admirer of the
+    open source software community. All opinions and errors are my own."
+  email:          mark.coggeshall@gmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: MarkCoggeshall # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: blueogive
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,14 +58,14 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/blueogive"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://www.linkedin.com/in/mark-coggeshall-4272676/"
+  # - title: "youtube"
+  #   url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
 
 # Background image to be tiled on all pages
-background:
+background: "linen_fabric_background_04_hd_picture_169825.jpg"
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -101,6 +103,6 @@ page_layout: page
 titlecase: true
 
 include: [".htaccess"]
-exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", ".vscode"]
 gems: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme
